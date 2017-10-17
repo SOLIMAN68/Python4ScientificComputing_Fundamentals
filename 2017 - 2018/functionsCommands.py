@@ -27,5 +27,8 @@ def wall_calc(listOfLayers):
     results = {"Rtot":Rtot,"Rvalue of all layers":RValues_layers}
     return results
     
+import functionsCommands as FC 
+   
 layers_wall = ["faceBreak_100mm","woodFiberboard_13mm"]
-results_thisWall = wall_calc(layers_wall)
+
+results_thisWall =  FC.wall_calc(layers_wall)
